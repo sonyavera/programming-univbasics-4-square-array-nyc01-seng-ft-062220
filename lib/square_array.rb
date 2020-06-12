@@ -12,7 +12,7 @@ def square_array(array)
   counter = 0
   new_array = []
   while counter <= array.length do
-    array[counter] = square_me
+    array[counter] = square_me.to_i
     new_array << square_me**2
     counter +=1
   end
