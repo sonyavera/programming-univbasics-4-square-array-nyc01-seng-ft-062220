@@ -1,15 +1,3 @@
-# def square_array(array)
-#   new_array = []
-#   array.each do |i| 
-#   new_array << i**2
-# end
-#   new_array
-# end
-
-# # def square_array(array)
-# #   array.collect {|i| i**2}
-# # end
-
 def square_array(array)
   new_array = []
   counter = 0
@@ -17,6 +5,7 @@ def square_array(array)
   new_array << integer**2
   counter += 1
   end
+  new_array
 end
 
 # def square_array(array)
@@ -30,4 +19,14 @@ end
 #   new_array
 # end
 
-# square_array(1,2,3)
+# def square_array(array)
+#   new_array = []
+#   array.each do |i| 
+#   new_array << i**2
+# end
+#   new_array
+# end
+
+# # def square_array(array)
+# #   array.collect {|i| i**2}
+# # end
