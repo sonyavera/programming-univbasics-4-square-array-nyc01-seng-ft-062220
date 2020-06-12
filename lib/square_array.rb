@@ -16,7 +16,7 @@ def square_array(array)
   while square_array[counter] do |integer|
   new_array << integer**2
   counter += 1
-end
+  end
 end
 
 # def square_array(array)
